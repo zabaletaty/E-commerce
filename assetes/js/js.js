@@ -28,6 +28,9 @@ function printProducts(products){
                             <p class="card-text">${products.price}</p>
                         </div>
                         <div class="text-end">
+                            <button class="btn btn-primary" >
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
                             <button class="btn btn-danger" onclick="deleteProduct(${products.id})">
                                 <i class="fas fa-trash-alt"></i>
                             </button>
